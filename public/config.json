@@ -2,7 +2,7 @@
     "main": "public/index.html",
     "name": "ChatGrape",
     "description": "",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "plugins" : {
                 "Dock":"Dock",
                 "Dialog":"Dialog",
@@ -19,10 +19,10 @@
         "width" : 900,
         "height" : 600,
         "position": "center",
-        "min_width": 400,
+        "min_width": 600,
         "min_height": 200,
-        "max_width": 1200,
-        "max_height": 800
+        "max_width": 9999999,
+        "max_height": 9999999
     }
   
 }
