@@ -1,2 +1,3 @@
-public/status.png
-public/statush.png
+.DS_Store
+*xcuserdata*
+build/*
