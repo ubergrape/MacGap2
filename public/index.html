@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>ChatGrape</title>
-  
-
-  <style type="text/css" media="screen">
-    html, body {
-      height: 100%;
-      width: 100%;
-      background: #FFF;
-      padding: 0;
-      margin: 0;
-      overflow: hidden;
-      -webkit-user-select: none;
-    }
-
-    h1 {
-      color: #E0E0E0;
-      margin: 18% 0;
-      text-align: center;
-      font-family: helvetica;
-    }
-  </style>
-  
-</head>
-<body>
-  
-  <script type="text/javascript" charset="utf-8">
+  <head>
+    <title>ChatGrape</title>
+    <style type="text/css" media="screen">
+      html, body {
+        height: 100%;
+        width: 100%;
+        background: #803d89;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        -webkit-user-select: none;
+      }
+      #loading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <img id="loading" src="loading.gif">
+    <script type="text/javascript" charset="utf-8">
       window.location.href = "https://chatgrape.com/chat";
-  </script>
-  
-  <h1>Loading ChatGrape</h1>
-</body>
+    </script>
+  </body>
 </html>
