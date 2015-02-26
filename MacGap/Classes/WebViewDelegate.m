@@ -131,9 +131,10 @@
             
             switch (tag)
             {
+                case WebMenuItemTagCopyLinkToClipboard:
+                    break;
                 case WebMenuItemTagOpenLinkInNewWindow:
                 case WebMenuItemTagDownloadLinkToDisk:
-                case WebMenuItemTagCopyLinkToClipboard:
                 case WebMenuItemTagOpenImageInNewWindow:
                 case WebMenuItemTagDownloadImageToDisk:
                 case WebMenuItemTagCopyImageToClipboard:
