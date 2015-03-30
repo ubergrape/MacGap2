@@ -22,7 +22,9 @@
         "min_width": 600,
         "min_height": 200,
         "max_width": 9999999,
-        "max_height": 9999999
+        "max_height": 9999999,
+        "opaque": 1,
+        "alpha": 1
     }
-  
+
 }

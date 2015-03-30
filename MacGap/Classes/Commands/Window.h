@@ -16,7 +16,8 @@
 @property (readonly) CGFloat y;
 
 
-- (void) open: (NSDictionary*) props;
+- (void) open:(NSString *) url;
+- (void) reopenFirst;
 JSExportAs(move, - (void) move: (NSNumber*) xCoord y: (NSNumber*) yCoord);
 JSExportAs(resize, - (void) resize: (NSNumber*) width height: (NSNumber*) height);
 - (void) minimize;
