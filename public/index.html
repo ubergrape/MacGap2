@@ -24,8 +24,11 @@
   </head>
   <body>
     <img id="loading" src="loading.gif" height="60" width="60">
-    <script type="text/javascript" charset="utf-8">
-      window.location.href = "https://chatgrape.com/chat";
-    </script>
+        <script type="text/javascript" charset="utf-8">
+            // if we don't wait 10 ms, the loading image will be broken
+            setTimeout(function() {
+                window.location.href = "https://chatgrape.com/chat";
+            }, 10);
+        </script>
   </body>
 </html>
