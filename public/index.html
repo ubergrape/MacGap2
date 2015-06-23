@@ -19,16 +19,16 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
       }
     </style>
   </head>
   <body>
-    <img id="loading" src="loading.gif" height="60" width="60">
-        <script type="text/javascript" charset="utf-8">
-            // if we don't wait 10 ms, the loading image will be broken
-            setTimeout(function() {
-                window.location.href = "https://chatgrape.com/chat";
-            }, 10);
-        </script>
+    <div id="loading"></div>
+    <script type="text/javascript" charset="utf-8">
+        document.getElementById('loading').style.backgroundImage = 'url("loading.gif")'
+        window.location.href = "https://chatgrape.com/chat";
+    </script>
   </body>
 </html>
