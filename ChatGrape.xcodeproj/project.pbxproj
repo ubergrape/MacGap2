@@ -44,7 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2237E646192B0177001E1393 /* ChatGrape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGrape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2237E646192B0177001E1393 /* Grape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2237E649192B0177001E1393 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2237E64C192B0177001E1393 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2237E64D192B0177001E1393 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -140,7 +140,7 @@
 		2237E647192B0177001E1393 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2237E646192B0177001E1393 /* ChatGrape.app */,
+				2237E646192B0177001E1393 /* Grape.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 			);
 			name = ChatGrape;
 			productName = MG;
-			productReference = 2237E646192B0177001E1393 /* ChatGrape.app */;
+			productReference = 2237E646192B0177001E1393 /* Grape.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -495,7 +495,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacGap/MG-Prefix.pch";
 				INFOPLIST_FILE = "MacGap/ChatGrape-Info.plist";
-				PRODUCT_NAME = ChatGrape;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatGrape;
+				PRODUCT_NAME = Grape;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -512,7 +513,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacGap/MG-Prefix.pch";
 				INFOPLIST_FILE = "MacGap/ChatGrape-Info.plist";
-				PRODUCT_NAME = ChatGrape;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatGrape;
+				PRODUCT_NAME = Grape;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
