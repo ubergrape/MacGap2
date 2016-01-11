@@ -18,14 +18,14 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="931" y="455" width="656" height="402"/>
+            <rect key="contentRect" x="717" y="393" width="1000" height="660"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="656" height="402"/>
+                <rect key="frame" x="0.0" y="0.0" width="1000" height="660"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <webView id="TAr-Rf-hWt">
-                        <rect key="frame" x="0.0" y="0.0" width="656" height="402"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="660"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
                             <nil key="identifier"/>

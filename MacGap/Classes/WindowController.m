@@ -45,15 +45,15 @@
     if (self) {
       
     }
+    
     return self;
 }
 
 - (void)windowDidLoad
 {
     [super windowDidLoad];
- 
+
     [self.webView setMainFrameURL:[self.url absoluteString]];
-   
     
 }
 
@@ -64,6 +64,7 @@
     
     self.url = [NSURL URLWithString:relativeURL relativeToURL:[[NSBundle mainBundle] resourceURL]];
     
+//    [self setShouldCascadeWindows:NO];
     [self.window setFrameAutosaveName:@"MacGapWindow"];
     
     return self;
