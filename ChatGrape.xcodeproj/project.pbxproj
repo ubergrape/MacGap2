@@ -38,7 +38,6 @@
 		22B1CF411937734B00D2C294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B1CF251937734B00D2C294 /* InfoPlist.strings */; };
 		22B1CF421937734B00D2C294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1CF271937734B00D2C294 /* Images.xcassets */; };
 		22B1CF431937734B00D2C294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1CF281937734B00D2C294 /* main.m */; };
-		22B1CF441937734B00D2C294 /* ChatGrape-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B1CF291937734B00D2C294 /* ChatGrape-Info.plist */; };
 		22BE36ED193B7F8800D8199F /* Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BE36EC193B7F8800D8199F /* Defaults.m */; };
 		5365ED081AB2F78000A5B06B /* chatgrape.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5365ED071AB2F78000A5B06B /* chatgrape.icns */; };
 /* End PBXBuildFile section */
@@ -294,7 +293,7 @@
 		2237E63E192B0177001E1393 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				TargetAttributes = {
 					2237E645192B0177001E1393 = {
 						DevelopmentTeam = Y8DPE6DGC7;
@@ -329,7 +328,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B1CF441937734B00D2C294 /* ChatGrape-Info.plist in Resources */,
 				5365ED081AB2F78000A5B06B /* chatgrape.icns in Resources */,
 				2237E6EF192BAF85001E1393 /* public in Resources */,
 				22B1CF401937734B00D2C294 /* Credits.rtf in Resources */,
@@ -429,6 +427,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
