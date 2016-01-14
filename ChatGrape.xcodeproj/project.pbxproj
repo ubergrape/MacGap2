@@ -40,6 +40,7 @@
 		22B1CF431937734B00D2C294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1CF281937734B00D2C294 /* main.m */; };
 		22BE36ED193B7F8800D8199F /* Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BE36EC193B7F8800D8199F /* Defaults.m */; };
 		5365ED081AB2F78000A5B06B /* chatgrape.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5365ED071AB2F78000A5B06B /* chatgrape.icns */; };
+		A3636F331C47A53A0079F5F2 /* GrapeMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3636F321C47A53A0079F5F2 /* GrapeMenuController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,8 @@
 		22BE36EC193B7F8800D8199F /* Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Defaults.m; sourceTree = "<group>"; };
 		5365ED071AB2F78000A5B06B /* chatgrape.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = chatgrape.icns; sourceTree = "<group>"; };
 		538367D61A9F7C4F006D2400 /* ChatGrape.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChatGrape.entitlements; sourceTree = "<group>"; };
+		A3636F311C47A53A0079F5F2 /* GrapeMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrapeMenuController.h; sourceTree = "<group>"; };
+		A3636F321C47A53A0079F5F2 /* GrapeMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrapeMenuController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +204,8 @@
 				22B1CF1F1937734B00D2C294 /* WebViewDelegate.m */,
 				22B1CF201937734B00D2C294 /* WindowController.h */,
 				22B1CF211937734B00D2C294 /* WindowController.m */,
+				A3636F311C47A53A0079F5F2 /* GrapeMenuController.h */,
+				A3636F321C47A53A0079F5F2 /* GrapeMenuController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3636F331C47A53A0079F5F2 /* GrapeMenuController.m in Sources */,
 				22B1CF3B1937734B00D2C294 /* Task.m in Sources */,
 				22B1CF341937734B00D2C294 /* Dock.m in Sources */,
 				22B1CF2E1937734B00D2C294 /* JSON.m in Sources */,

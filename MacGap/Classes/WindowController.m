@@ -55,7 +55,11 @@
 
     [self.webView setMainFrameURL:[self.url absoluteString]];
     
+    // Notify our custom menu controller about window changes
+    [[self window] setDelegate:(GrapeMenuController *)[NSApp mainMenu]];
+    
 }
+
 
 - (id) initWithURL:(NSString *) relativeURL{
 

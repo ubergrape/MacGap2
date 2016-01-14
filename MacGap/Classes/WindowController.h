@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
 #import "MacGap.h"
+#import "GrapeMenuController.h"
 
 @class WebViewDelegate;
 
@@ -25,7 +26,7 @@
 @property (nonatomic, readonly, strong) NSMutableDictionary* settings;
 @property (strong) JSContext* jsContext;
 @property (retain) WebView* webView;
-@property (strong) IBOutlet NSMenu *mainMenu;
+@property (strong) IBOutlet GrapeMenuController *mainMenu;
 @property (retain) WebViewDelegate* webViewDelegate;
 
 @property (retain) NSURL* url;
